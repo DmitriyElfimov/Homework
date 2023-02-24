@@ -5,7 +5,7 @@ Console.Write("input first number ");
 int number1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("input second number ");
 int number2 = Convert.ToInt32(Console.ReadLine());
-if(number1 == number2)
+if(number1 == number2) // на случай если введут одинаковые числа)))
     {
         Console.WriteLine("numbers equal");
     }
@@ -70,6 +70,6 @@ if(number > 1)
 }
 else
 {
-    Console.WriteLine("input odd number");
+    Console.WriteLine("input other number");
 }
 */
