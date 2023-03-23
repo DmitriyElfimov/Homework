@@ -128,7 +128,7 @@ int[,,] FillMatrixWithRandom(int row, int column, int list)
         {
             for (int k = 0; k < matrix.GetLongLength(2); k++)
             {
-                matrix[i, j, k] = rnd.Next(0, 10);
+                matrix[i, j, k] = rnd.Next(10, 100);
             }
         }
 
